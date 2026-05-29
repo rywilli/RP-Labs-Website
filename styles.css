@@ -70,7 +70,7 @@ img {
 
 .brand-logo {
   display: block;
-  width: clamp(58px, 8.4vw, 84px);
+  width: clamp(87px, 12.6vw, 126px);
   height: auto;
 }
 
@@ -249,7 +249,7 @@ p {
   }
 
   .brand-logo {
-    width: clamp(50px, 17vw, 72px);
+    width: clamp(75px, 25.5vw, 108px);
   }
 
   .site-nav {
