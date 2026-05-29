@@ -59,6 +59,14 @@ img {
   min-height: 72px;
 }
 
+.nav-shell {
+  transition: min-height 180ms ease;
+}
+
+.site-header.is-scrolled .nav-shell {
+  min-height: 56px;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -72,6 +80,11 @@ img {
   display: block;
   width: clamp(87px, 12.6vw, 126px);
   height: auto;
+  transition: width 180ms ease;
+}
+
+.site-header.is-scrolled .brand-logo {
+  width: clamp(43.5px, 6.3vw, 63px);
 }
 
 .site-nav {
@@ -250,6 +263,10 @@ p {
 
   .brand-logo {
     width: clamp(75px, 25.5vw, 108px);
+  }
+
+  .site-header.is-scrolled .brand-logo {
+    width: clamp(37.5px, 12.75vw, 54px);
   }
 
   .site-nav {
