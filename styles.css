@@ -60,10 +60,18 @@ img {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: clamp(120px, 18vw, 180px);
+  height: auto;
 }
 
 .site-nav {
@@ -238,6 +246,10 @@ p {
     position: relative;
     flex-wrap: wrap;
     padding: 0.75rem 0;
+  }
+
+  .brand-logo {
+    width: clamp(96px, 34vw, 140px);
   }
 
   .site-nav {
