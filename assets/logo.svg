@@ -1,0 +1,31 @@
+<svg width="196" height="52" viewBox="0 0 196 52" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">R&amp;P Labs logo</title>
+  <desc id="desc">A stylized R and P monogram with an orbital lab mark and R&amp;P Labs wordmark.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="6" y1="4" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28B8FF"/>
+      <stop offset="0.52" stop-color="#0071E3"/>
+      <stop offset="1" stop-color="#5E5CE6"/>
+    </linearGradient>
+    <linearGradient id="wordGradient" x1="60" y1="14" x2="184" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D1D1F"/>
+      <stop offset="1" stop-color="#3F3F46"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0071E3" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="6" y="4" width="44" height="44" rx="14" fill="url(#markGradient)"/>
+    <path d="M18 36V16H29.2C34.4 16 37.6 18.7 37.6 23.1C37.6 26.5 35.7 28.9 32.4 29.8L38.4 36H32.4L26.9 30.1H23.1V36H18ZM23.1 25.9H28.7C31.1 25.9 32.4 24.9 32.4 23.1C32.4 21.4 31.1 20.4 28.7 20.4H23.1V25.9Z" fill="white"/>
+    <path d="M31.3 16H40.4C44.8 16 47.8 18.6 47.8 22.5C47.8 26.5 44.8 29.1 40.4 29.1H36.2V36H31.3V31.4L36.2 36V24.8H39.9C41.8 24.8 42.9 23.9 42.9 22.5C42.9 21.1 41.8 20.3 39.9 20.3H31.3V16Z" fill="white" fill-opacity="0.28"/>
+    <ellipse cx="28" cy="26" rx="20.5" ry="9.5" transform="rotate(-22 28 26)" stroke="white" stroke-opacity="0.48" stroke-width="1.6"/>
+    <circle cx="42" cy="18" r="2.4" fill="#FFFFFF"/>
+  </g>
+
+  <g fill="url(#wordGradient)">
+    <text x="62" y="25" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="-0.04em">R&amp;P</text>
+    <text x="62" y="41" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="0.16em">LABS</text>
+  </g>
+</svg>
